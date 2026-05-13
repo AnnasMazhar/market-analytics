@@ -22,7 +22,7 @@ print(all_data.head())
 
 
 # Clean Data
- drop na 
+# drop na
 
 nan_df = all_data[all_data.isna().any(axis=1)] 
 print(nan_df.head())
